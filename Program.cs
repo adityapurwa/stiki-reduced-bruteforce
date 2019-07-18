@@ -29,36 +29,38 @@ namespace ReducedBruteforce
         }
         static void Main(string[] args)
         {
-            //Bruteforce();
+            Bruteforce();
             ReducedBruteforce();
             Console.ReadLine();
         }
 
         static void ReducedBruteforce()
         {
-            //Console.WriteLine("SCENE 1:");
-            //RunSimulation(
-            //    new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
-            //    new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
-            //);
+            // NOTE: RUN EACH SCENE ONE BY ONE!
 
-            //Console.WriteLine("SCENE 2:");
-            //RunSimulation(
-            //    new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 3, Radius = 5 },
-            //    new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 1, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 1:");
+            RunSimulation(
+                new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
+                new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
+            );
 
-            //Console.WriteLine("SCENE 3:");
-            //RunSimulation(
-            //    new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
-            //    new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 2:");
+            RunSimulation(
+                new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 3, Radius = 5 },
+                new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 1, Radius = 5 }
+            );
 
-            //Console.WriteLine("SCENE 4:");
-            //RunSimulation(
-            //    new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 1 },
-            //    new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 3:");
+            RunSimulation(
+                new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
+                new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
+            );
+
+            Console.WriteLine("SCENE 4:");
+            RunSimulation(
+                new Core.ReducedBruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 1 },
+                new Core.ReducedBruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
+            );
 
             Console.WriteLine("SCENE 5:");
             RunSimulation(
@@ -71,35 +73,37 @@ namespace ReducedBruteforce
 
         static void Bruteforce()
         {
-            //Console.WriteLine("SCENE 1:");
-            //RunSimulation(
-            //    new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
-            //    new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
-            //);
+            // NOTE: RUN EACH SCENE ONE BY ONE!
 
-            //Console.WriteLine("SCENE 2:");
-            //RunSimulation(
-            //    new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 3, Radius = 5 },
-            //    new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 1, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 1:");
+            RunSimulation(
+                new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
+                new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
+            );
 
-            //Console.WriteLine("SCENE 3:");
-            //RunSimulation(
-            //    new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
-            //    new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 2:");
+            RunSimulation(
+                new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 3, Radius = 5 },
+                new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 1, Radius = 5 }
+            );
 
-            //Console.WriteLine("SCENE 4:");
-            //RunSimulation(
-            //    new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 1 },
-            //    new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 3:");
+            RunSimulation(
+                new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 5 },
+                new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
+            );
 
-            //Console.WriteLine("SCENE 5:");
-            //RunSimulation(
-            //    new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 0, Radius = 5 },
-            //    new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
-            //);
+            Console.WriteLine("SCENE 4:");
+            RunSimulation(
+                new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 2, Radius = 1 },
+                new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = -2, Radius = 5 }
+            );
+
+            Console.WriteLine("SCENE 5:");
+            RunSimulation(
+                new Core.BruteforceVirtualObject { ID = 0, X = 0, Y = 0, VX = 0, Radius = 5 },
+                new Core.BruteforceVirtualObject { ID = 1, X = 20, Y = 0, VX = 0, Radius = 5 }
+            );
 
 
         }
